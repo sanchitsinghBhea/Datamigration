@@ -4,7 +4,7 @@
    $dbpass = 'password';
    
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
-    mysql_select_db('ib_backup');
+    mysql_select_db('backup');
    if(! $conn ) {
       die('Could not connect: ' . mysql_error());
    }
