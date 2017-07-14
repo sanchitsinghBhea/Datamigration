@@ -1,7 +1,7 @@
 <?php
    $dbhost = 'localhost';
    $dbuser = 'root';
-   $dbpass = 'I3#eA@321';
+   $dbpass = 'password';
    
    $conn = mysql_connect($dbhost, $dbuser, $dbpass);
     mysql_select_db('ib_backup');
