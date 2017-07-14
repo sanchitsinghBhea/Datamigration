@@ -16,13 +16,13 @@ $truncate=true;
  */
 $dbHost='localhost';
 $dbUser='root';
-$dbPass='I3#eA@321';
+$dbPass='Password';
 $_conn = mysql_connect($dbHost,$dbUser,$dbPass) or die('DB Connection Failed');
 
-$dbOld = 'ib_backup';
+$dbOld = 'backup';
 
 
-$dbNew = 'avendus_merged';
+$dbNew = 'merged';
 
 /** Tables to Synch
  */
